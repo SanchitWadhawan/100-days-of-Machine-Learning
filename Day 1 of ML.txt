@@ -1,0 +1,17 @@
+
+DAY-1
+
+What is ML ?
+A field of computer Science that uses stastical techniques to give computer system the ability to learn with data without being explecitly progrmmed.
+
+Now let consider a real life example , we have lots of data and with data there comes a lot of coanditions , in a particular case of ML, it has a power to generate better understanding of things using algorithms. Suppose you are making a email fraud detection model , no this is case you will mention a rule , if an email has a word HUGE in the email , then it is considered to be scam , now companies can use a synonym of the word, henc the given test case fails. Here machine learning comes into part , in traditionall programming data with some program is given as an input to the computer and an output comes out comes out 
+
+Whereas in ML data with some output is given and a program is generated.
+
+In history till 2008 we ML was not that famous but as digitally we improved we started gathering more and more data we started moving towards machine leanring whic is comparetively a better approch of solving a problem.
+
+Machine learning is a growing technology which enables computers to learn automatically from past data. Machine learning uses various algorithms for building mathematical models and making predictions using historical data or information. Currently, it is being used for various tasks such as image recognition, speech recognition, email filtering, Facebook auto-tagging, recommender system, and many more.
+
+With the help of sample historical data, which is known as training data, machine learning algorithms build a mathematical model that helps in making predictions or decisions without being explicitly programmed.
+
+A Machine Learning system learns from historical data, builds the prediction models, and whenever it receives new data, predicts the output for it. The accuracy of predicted output depends upon the amount of data, as the huge amount of data helps to build a better model which predicts the output more accurately.s
