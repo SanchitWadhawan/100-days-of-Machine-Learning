@@ -1,0 +1,19 @@
+AI VS ML VS DL
+AI - AI stands for artificial intelligence-pattern recognition, IQ , creativity and imagination and emotional inteligence
+Basically and practically we code or generate  is pattern recognition because it is quantifiable , you can measure love or hateness of a person
+
+ML is machine learing and it is total about finding patterns in the given data.
+here by writting rules is not considered to be efficient way    you provide different data , for the same and that data can be used to classify things , basically machine can learn from those data.
+
+In this new era of technology, companies and developers around the world are talking about embracing artificial intelligence (AI), machine learning (ML), and deep learning (DL). All these acronyms are often loosely used in the field of technology. It is important to understand that all these acronyms are part of Artificial Intelligence (AI) umbrella.
+
+AI is an umbrella discipline that covers everything related to making machines smarter. Machine Learning (ML) is commonly used along with AI but it is a subset of AI. ML refers to an AI system that can self-learn based on the algorithm. Systems that get smarter and smarter over time without human intervention is ML. Deep Learning (DL) is a machine learning (ML) applied to large data sets. Most AI work involves ML because intelligent behaviour requires considerable knowledge.
+
+1. Artificial Intelligence (AI)
+Humans have been obsessed with automation since the beginning of technology adoption. AI enables machines to think without any human intervention. It is a broad area of computer science. AI systems fall into three types: ANI: Artificial Narrow Intelligence, which is goal-oriented and programmed to perform a single task. AGI (Artificial General Intelligence) which allows machines to learn, understand, and act in a way that is indistinguishable from humans in a given situation. ASI (Artificial Super Intelligence) is a hypothetical AI where machines are capable of exhibiting intelligence that surpasses brightest humans.
+
+2. Machine Learning (ML)
+ML is a subset of AI that uses statistical learning algorithms to build smart systems. The ML systems can automatically learn and improve without explicitly being programmed. The recommendation systems on music and video streaming services are examples of ML. The machine learning algorithms are classified into three categories: supervised, unsupervised and reinforcement learning.
+
+3. Deep Learning (DL)
+This subset of AI is a technique that is inspired by the way a human brain filters information. It is associated with learning from examples. DL systems help a computer model to filter the input data through layers to predict and classify information. Deep Learning processes information in the same manner as the human brain. It is used in technologies such as driver-less cars. DL network architectures are classified into Convolutional Neural Networks, Recurrent Neural Networks, and Recursive Neural Networks.
