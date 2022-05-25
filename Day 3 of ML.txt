@@ -1,0 +1,57 @@
+Types of Machine Learning 
+
+1)Supervised learning
+2)Unsupervised Learning
+3)Semi Supervised Learning
+4)Reinforcement Learning
+
+Supervised Learning 
+
+Data can be of 2 types Numerical and categrical numerical data like age , weight, cgpa etc and categrical data like gender and nation
+You supervise the learning process, meaning the data that you have collected here is labelled and so you know what input needs to be mapped to what output. This helps you correct your algorithm if it makes a mistake in giving you the answer.Supervised Learning is the process of making an algorithm to learn to map an input to a particular output. This is achieved using the labelled datasets that you have collected. If the mapping is correct, the algorithm has successfully learned. Else, you make the necessary changes to the algorithm so that it can learn correctly. Supervised Learning algorithms can help make predictions for new unseen data that we obtain later in the future. 
+
+This is similar to a teacher-student scenario. There is a teacher who guides the student to learn from books and other materials. The student is then tested and if correct, the student passes. Else, the teacher tunes the student and makes the student learn from the mistakes that he or she had made in the past. That is the basic principle of Supervised Learning.   
+
+Types :-
+1) Regression
+Regression is the kind of Supervised Learning that learns from the Labelled Datasets and is then able to predict a continuous-valued output for the new data given to the algorithm. It is used whenever the output required is a number such as money or height etc. Some popular Supervised Learning algorithms are discussed below:
+
+This algorithm assumes that there is a linear relationship between the 2 variables, Input (X) and Output (Y), of the data it has learnt from. The Input variable is called the Independent Variable and the Output variable is called the Dependent Variable. When unseen data is passed to the algorithm, it uses the function, calculates and maps the input to a continuous value for the output.
+
+Linear Regression
+This algorithm predicts discrete values for the set of Independent variables that have been passed to it. It does the prediction by mapping the unseen data to the logit function that has been programmed into it. The algorithm predicts the probability of the new data and so it’s output lies between the range of 0 and 1.
+
+2) Classifiation
+Decision Trees classify based on the feature values. They use the method of Information Gain and find out which feature of the dataset gives the best of information, make that as the root node and so on till they are able to classify each instance of the dataset. Every branch in the Decision Tree represents a feature of the dataset. They are one of the most widely used algorithms for classification.
+
+Decision Tree – Decision Trees classify based on the feature values. They use the method of Information Gain and find out which feature of the dataset gives the best of information, make that as the root node and so on till they are able to classify each instance of the dataset. Every branch in the Decision Tree represents a feature of the dataset. They are one of the most widely used algorithms for classification.
+
+Naive Bayes Classifier – Naive Bayes algorithms assume that the features of the dataset are all independent of each other. They work great on large datasets. Directed Acyclic Graphs (DAG) is used for the purpose of classification.
+
+Support Vector Machines (SVM) – SVM algorithms are based on the statistical learning theory of Vap Nik. They use Kernal functions which are a central concept for most of the learning tasks. These algorithms create a hyper-plane that is used to classify the two classes from each other.
+
+Unsupervised Learning 
+1) Clustering
+Clustering can be considered the most important unsupervised learning problem; so, as every other problem of this kind, it deals with finding a structure in a collection of unlabeled data. A loose definition of clustering could be “the process of organizing objects into groups whose members are similar in some way”. A cluster is therefore a collection of objects which are “similar” between them and are “dissimilar” to the objects belonging to other clusters
+
+2) Dimentionality reduction
+Dimensionality is the number of variables, characteristics or features present in the dataset. This dimensions are represented as columns, and the goal is to reduce the number of them.In most cases, those columns are correlated and, therefore, there is some information that is redundant which increase the dataset’s noise. This redundant information impacts negatively in Machine Learning model’s training and performance and that is why using dimensionality reduction methods becomes of paramount importance. It is a very useful way to reduce model’s complexity and avoid overfitting.
+
+
+
+Reinforcement Learning:
+A system interacts with a dynamic environment in which it must perform a certain goal (such as driving a vehicle or playing a game against an opponent). The system is provided feedback in terms of rewards and punishments as it navigates its problem space.
+Between supervised and unsupervised learning is semi-supervised learning, where the teacher gives an incomplete training signal: a training set with some (often many) of the target outputs missing. We will focus on unsupervised learning and data clustering in this blog post.
+
+Semi Supervised learning:
+
+Today’s Machine Learning algorithms can be broadly classified into three categories, Supervised Learning, Unsupervised Learning and Reinforcement Learning. Casting Reinforced Learning aside, the primary two categories of Machine Learning problems are Supervised and Unsupervised Learning. The basic difference between the two is that Supervised Learning datasets have an output label associated with each tuple while Unsupervised Learning datasets do not. 
+
+The most basic disadvantage of any Supervised Learning algorithm is that the dataset has to be hand-labeled either by a Machine Learning Engineer or a Data Scientist. This is a very costly process, especially when dealing with large volumes of data. The most basic disadvantage of any Unsupervised Learning is that it’s application spectrum is limited.To counter these disadvantages, the concept of Semi-Supervised Learning was introduced. In this type of learning, the algorithm is trained upon a combination of labeled and unlabelled data. Typically, this combination will contain a very small amount of labeled data and a very large amount of unlabelled data. The basic procedure involved is that first, the programmer will cluster similar data using an unsupervised learning algorithm and then use the existing labeled data to label the rest of the unlabelled data. The typical use cases of such type of algorithm have a common property among them – The acquisitions of unlabelled data is relatively cheap while labeling the said data is very expensive. 
+Intuitively, one may imagine the three types of learning algorithms as Supervised learning where a student is under the supervision of a teacher at both home and school, Unsupervised learning where a student has to figure out a concept himself and Semi-Supervised learning where a teacher teaches a few concepts in class and gives questions as homework which are based on similar concepts. 
+
+A Semi-Supervised algorithm assumes the following about the data
+
+Continuity Assumption: The algorithm assumes that the points which are closer to each other are more likely to have the same output label.
+Cluster Assumption: The data can be divided into discrete clusters and points in the same cluster are more likely to share an output label.
+Manifold Assumption: The data lie approximately on a manifold of much lower dimension than the input space. This assumption allows the use of distances and densities which are defined on a manifold.
