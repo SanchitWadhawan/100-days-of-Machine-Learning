@@ -1,0 +1,24 @@
+What is Training Data?
+Machine learning uses algorithms to learn from data in datasets. They find patterns, develop understanding, make decisions, and evaluate those decisions. 
+
+In machine learning, datasets are split into two subsets. 
+The first subset is known as the training data - it’s a portion of our actual dataset that is fed into the machine learning model to discover and learn patterns. In this way, it trains our model. 
+The other subset is known as the testing data. We’ll cover more on this below.
+Training data is typically larger than testing data. This is because we want to feed the model with as much data as possible to find and learn meaningful patterns. Once data from our datasets are fed to a machine learning algorithm, it learns patterns from the data and makes decisions.
+Algorithms enable machines to solve problems based on past observations. Kind of like learning from example, just like humans. The only difference is that machines require a lot more examples in order to be able to see patterns and learn. As machine learning models are exposed to more relevant training data, the more they improve over time. 
+Your training data will vary depending on what type of machine learning you’re using: supervised or unsupervised. 
+
+To summarize: Your training data is a subset of your dataset that you use to teach a machine learning model to recognize patterns or perform your criteria. 
+
+
+What is Testing Data?
+Once your machine learning model is built (with your training data), you need unseen data to test your model. This data is called testing data, and you can use it to evaluate the performance and progress of your algorithms’ training and adjust or optimize it for improved results. 
+
+Testing data has two main criteria. It should:
+Represent the actual dataset 
+Be large enough to generate meaningful predictions
+Like we said above, this dataset needs to be new, “unseen” data. This is because your model already “knows” the training data. How it performs on new test data will let you know if it’s working accurately or if it requires more training data to perform to your specifications
+Test data provides a final, real-world check of an unseen dataset to confirm that the machine learning algorithm was trained effectively.
+In data science, it’s typical to see your data split into 80% for training and 20% for testing.
+
+Note: In supervised learning, the outcomes are removed from the actual dataset when creating the testing dataset. They are then fed into the trained model. The outcomes predicted by the trained model are compared with the actual outcomes. Depending on how the model performs on the testing dataset, we can evaluate the performance of the model.
